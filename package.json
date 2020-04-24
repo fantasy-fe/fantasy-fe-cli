@@ -1,0 +1,25 @@
+{
+  "name": "fantasy-fe-cli",
+  "version": "1.0.0",
+  "description": "templete cli",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fantasy-fe/fantasy-fe-cli.git"
+  },
+  "keywords": [
+    "cli"
+  ],
+  "author": "shuaibin.li",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fantasy-fe/fantasy-fe-cli/issues"
+  },
+  "homepage": "https://github.com/fantasy-fe/fantasy-fe-cli#readme",
+  "bin": {
+    "fantasy-cli": "./bin/fantasy-cli"
+  }
+}
