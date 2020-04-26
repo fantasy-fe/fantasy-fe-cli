@@ -1,5 +1,5 @@
 {
-  "name": "fantasy-fe-cli",
+  "name": "@fantasy-fe/cli",
   "version": "1.0.0",
   "description": "templete cli",
   "main": "index.js",
@@ -21,5 +21,14 @@
   "homepage": "https://github.com/fantasy-fe/fantasy-fe-cli#readme",
   "bin": {
     "fantasy-cli": "./bin/fantasy-cli"
+  },
+  "dependencies": {
+    "chalk": "^4.0.0",
+    "commander": "^5.0.0",
+    "download-git-repo": "^3.0.2",
+    "fs": "0.0.1-security",
+    "log-symbols": "^3.0.0",
+    "ora": "^4.0.4",
+    "shelljs": "^0.8.4"
   }
 }
