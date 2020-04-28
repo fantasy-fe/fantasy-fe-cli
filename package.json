@@ -1,6 +1,6 @@
 {
   "name": "@fantasy-fe/cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "templete cli",
   "main": "index.js",
   "scripts": {
@@ -20,13 +20,20 @@
   },
   "homepage": "https://github.com/fantasy-fe/fantasy-fe-cli#readme",
   "bin": {
-    "fantasy-cli": "./bin/fantasy-cli"
+    "fantasy-cli": "./bin/fantasy-cli",
+    "fantasy-cli-tplist": "./bin/fantasy-cli-tplist"
   },
   "dependencies": {
     "chalk": "^4.0.0",
     "commander": "^5.0.0",
+    "debug": "^4.1.1",
     "download-git-repo": "^3.0.2",
     "fs": "0.0.1-security",
+    "gulp": "^3.8.9",
+    "gulp-sass": "^4.1.0",
+    "inquirer": "^7.1.0",
+    "jquery": "^3.5.0",
+    "lodash": "^4.17.15",
     "log-symbols": "^3.0.0",
     "ora": "^4.0.4",
     "shelljs": "^0.8.4"

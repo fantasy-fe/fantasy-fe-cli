@@ -1,0 +1,29 @@
+module.exports = {
+  list: {
+    template_4_h5: {
+      git: "github.com:NB-Super-Mario/template_4_h5#TEMPLATE_4_H5_tag_V1.0.2",
+      name: "h5项目react基础模版",
+      desc: "react+antd mobile+less+webpack h5基础模版",
+      readme: "https://github.com/NB-Super-Mario/template_4_h5",
+    },
+    template_4_pc: {
+      git: "github.com:NB-Super-Mario/template_4_pc#TEMPLATE_4_PC_tag_V1.0.1",
+      name: "pc项目react基础模版",
+      desc: "react+antd +less+webpack PC基础模版",
+      readme: "https://github.com/NB-Super-Mario/template_4_pc",
+    },
+    template_4_vue: {
+      git: "github.com:NB-Super-Mario/template_4_vue#TEMPLATE_4_VUE_tag_V1.0.0",
+      name: "pc项目vue基础模版",
+      desc: "vue+element-ui +less+sass+webpack  vue PC基础模版",
+      readme: "https://github.com/NB-Super-Mario/template_4_vue",
+    },
+    template_4_remax: {
+      git:
+        "github.com:NB-Super-Mario/template_4_remax#TEMPLATE_4_REMAX_tag_V1.0.0",
+      name: "小程序remax 基础模版",
+      desc: "remax less redux typescript @vant/weapp 基础模版",
+      readme: "https://github.com/NB-Super-Mario/template_4_remax",
+    },
+  },
+};
