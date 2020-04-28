@@ -2,6 +2,10 @@ const path = require("path");
 const fs = require("fs");
 
 module.exports = {
+  State: {
+    Succss: 0,
+    Fail: 1,
+  },
   /**
    * 获取cain config文件
    */

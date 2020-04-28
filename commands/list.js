@@ -1,10 +1,3 @@
-/**
- * Copyright (c) 2020-present liying Holding Limited
- * @author liying <ly.boy2012@gmail.com>
- * @Description: 模版查看
- * @Date: 2020-04-14 12:21:40
- */
-
 const chalk = require("chalk");
 
 const _ = require("lodash");
